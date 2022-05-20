@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../CSS/normalize.css" />
+    <link rel="stylesheet" href="../../CSS/style.css" />
+    <link rel="stylesheet" href="./hotel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Hotel</title>
+  </head>
+  <body>
+    <div class="main-heading">
+      <h2>Choisissez l'hotel qui vous convient</h2>
+    </div>
+    <div class="hotel-list">
+      <div class="region">
+        <label for="wilaya">Choisissez la region:</label>
+        <input list="wilayas" name="wilaya" id="wilaya" />
+        <datalist id="wilayas">
+          <option value="Tout"></option>
+          <option value="Alger"></option>
+          <option value="Oran"></option>
+          <option value="Mostaganem"></option>
+        </datalist>
+      </div>
+    </div>
+    <!-- Start Hotel List -->
+    <div class="hotel" id="hotel">
+      <div class="container">
+        <div class="box oran">
+          <img src="./Image/sheraton.jfif" alt="" />
+          <div class="content">
+            <h3>Sheraton - Oran</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reprehenderit
+            </p>
+          </div>
+          <div class="info">
+            <a href="../Sheraton/sheraton.html" target="_blank">Voir Plus</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box mostaganem">
+          <img src="./Image/AZ.jpg" alt="" />
+          <div class="content">
+            <h3>AZ - Mostaganem</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reprehenderit
+            </p>
+          </div>
+          <div class="info">
+            <a href="../AZ/AZ.html" target="_blank">Voir Plus</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box alger">
+          <img src="./Image/Mercure.jpg" alt="" />
+          <div class="content">
+            <h3>Mercure - Alger</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reprehenderit
+            </p>
+          </div>
+          <div class="info">
+            <a href="../Mercure/Mercure.html" target="_blank">Voir Plus</a>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box alger">
+          <img src="./Image/Hilton.jpg" alt="" />
+          <div class="content">
+            <h3>Hilton - Alger</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reprehenderit
+            </p>
+          </div>
+          <div class="info">
+            <a href="">Voir Plus</a>
+          </div>
+        </div>
+        <div class="box alger">
+          <img src="./Image/sofitel.jpg" alt="" />
+          <div class="content">
+            <h3>Sofitel - Alger</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reprehenderit
+            </p>
+          </div>
+          <div class="info">
+            <a href="">Voir Plus</a>
+          </div>
+        </div>
+        <div class="box oran">
+          <img src="./Image/Royal.jpg" alt="" />
+          <div class="content">
+            <h3>Royal - Oran</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reprehenderit
+            </p>
+          </div>
+          <div class="info">
+            <a href="">Voir Plus</a>
+          </div>
+        </div>
+        <div class="box alger">
+          <img src="./Image/ibis.jpg#" alt="" />
+          <div class="content">
+            <h3>Ibis - Alger</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reprehenderit
+            </p>
+          </div>
+          <div class="info">
+            <a href="">Voir Plus</a>
+          </div>
+        </div>
+        <div class="box mostaganem">
+          <img src="./Image/park-mall-hotel-conference.jpg" alt="" />
+          <div class="content">
+            <h3>Park Mall - Mostaganem</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reprehenderit
+            </p>
+          </div>
+          <div class="info">
+            <a href="">Voir Plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spikes"></div>
+    <!-- End Hotel List -->
+    <div class="form-btn">
+      <button><a href="">Reservation</a></button>
+    </div>
+    <script src="./hotel.js"></script>
+  </body>
+</html>
