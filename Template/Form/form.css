@@ -1,0 +1,36 @@
+body{
+  background-color: #f2f2f2;
+}
+
+.register{
+  position: relative;
+}
+
+.register .container form{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register .form-info{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.register .form-info label{
+  position: absolute;
+  left: 0px;
+  top: -20px;
+  z-index: 100;
+}
+
+.register .form-info input,
+.register .form-info select{
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
