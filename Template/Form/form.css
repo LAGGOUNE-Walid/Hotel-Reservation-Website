@@ -34,3 +34,17 @@ body{
   border-radius: 5px;
   border: 1px solid #ddd;
 }
+
+.register button{
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.register button:active{
+  transform: scale(0.98);
+}
